@@ -11,5 +11,10 @@ Page({
         return util.formatTime(new Date(log))
       })
     })
+  },
+  goToTalkPage:function(param){
+    wx.navigateTo({
+      url:'../login/login'
+    })
   }
 })
